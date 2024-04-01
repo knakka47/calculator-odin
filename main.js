@@ -153,7 +153,7 @@ function handleDelete() {
             currentDisplayNumber.textContent = "0";
         }
     }
-    if (currentNum === "" + && previousNum !== "" && operator === "") {
+    if (currentNum === "" && previousNum !== "" && operator === "") {
         previousNum = previousNum.slice(0, -1);
         currentDisplayNumber.textContent = previousNum;
     }
